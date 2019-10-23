@@ -7,7 +7,7 @@ a:hover {
 }
 
 .navbar {
-    padding: 4px 15px 0
+    padding: 0px 0px 0;
 }
 
 div#top-bar {
@@ -70,7 +70,7 @@ div#top-bar ul li.highlightbro {
 }
 
 ul.navbar-nav.topnav {
-    padding-top: 28px
+    padding-top: 0;
 }
 
 ul.navbar-nav.topnav>li>a.nav-link {
@@ -81,9 +81,9 @@ ul.navbar-nav.topnav>li>a.nav-link {
 }
 
 ul.navbar-nav.topnav>li {
-    margin-left: 19px;
+    margin-left: 0;
     position: relative;
-    padding: 0 3px 33px
+    padding: 30px 12px 30px;
 }
 
 ul.navbar-nav.topnav>li:hover>a:before {
@@ -485,7 +485,7 @@ img.imgthumbnail2 {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
+    /* background: rgba(0, 0, 0, 0.6); */
     width: 100%;
     height: 100%
 }
@@ -505,7 +505,10 @@ img.imgthumbnail2 {
     background: #fff;
     position: relative;
     z-index: 999;
-    padding-bottom: 0
+    padding-bottom: 0;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
 }
 
 section.wed-hom-footer {
@@ -813,7 +816,7 @@ span.entry-date {
 }
 
 .commansection h3.title-leftborder {
-    font-size: 30px
+    font-size: 34px;
 }
 
 .facilitysection h3.title-leftborder {
@@ -1195,7 +1198,7 @@ header.video {
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-    margin-top: 150px
+    margin-top: 145px
 }
 
 video {
@@ -1316,6 +1319,155 @@ div#top-bar ul li.nav-item.highlightgrey a {
     text-transform: capitalize
 }
 
+
+
+
+
+
+/* new css */
+
+.messagesection img.imgthumbnail {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    width: 650px;
+}
+
+
+
+.messagesection .container .col{ padding: 0;}
+
+.continner {
+    padding: 15px 45px 30px 45px;
+}
+
+.messagesection {
+    /* padding: 80px 0; */
+    background: #efefef;
+    background: url(../images/gallery/5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.messagesection .row.align-items-center {
+    background: #ffffff;
+    color: #2e3192;
+}
+
+.messagesection .row.align-items-center + .row.align-items-center {
+    background: #2e3192;
+    color: #ffffff;
+}
+
+.messagesection .row.align-items-center + .row.align-items-center + .row.align-items-center {
+    background: #ffffff;
+    color: #2e3192;
+}
+
+.layersec {
+    padding: 80px 0;
+    background: rgba(0,0,0,0.82);
+}
+
+
+.messagesection h2.title {
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+
+
+.messagesection .row.align-items-center  h2.title+h4 {
+    color: #000;
+}
+
+.messagesection .row.align-items-center p {
+    color: #000;
+}
+
+a.navbar-brand img {
+    width: 130px;
+    margin-top: -18px;
+}
+
+
+.messagesection .row.align-items-center + .row.align-items-center h2.title+h4 {
+    color: #fff;
+}
+
+.messagesection .row.align-items-center + .row.align-items-center  p {
+    color: #fff;
+}
+
+
+.messagesection .row.align-items-center + .row.align-items-center  + .row.align-items-center h2.title+h4 {
+    color: #000;
+}
+
+.messagesection .row.align-items-center + .row.align-items-center   + .row.align-items-center p {
+    color: #000;
+}
+
+
+
+.messagesection h3.title-leftborder {
+    color: #fff;
+
+    font-size: 34px;
+}
+
+.messagesection h3.title-leftborder+p {
+    padding-left: 12px;
+    font-weight: 400;
+    padding-top: 6px;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+
+.quicklink {
+    background: #042747;
+    padding: 20px 0;
+    color: #fff;
+}
+.alignitemscenter >div {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.alignitemscenter >div.cold + .cold {
+    padding-top: 17px;
+}
+
+.col-sm-6.mlauto {
+    text-align: right;
+}
+
+
+
+ul.navbar-nav.topnav li.nav-item.dropdownli > a:after {
+    content: "\f107";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    color: #2e3192;
+}
+
+
+
+
+
+
+
+
+
 @media(min-width:1500px) {
     .container {
         max-width: 1300px
@@ -1327,6 +1479,16 @@ div#top-bar ul li.nav-item.highlightgrey a {
 }
 
 @media only screen and (max-width:1499px) {
+
+    .messagesection img.imgthumbnail {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+        width: 600px;
+    }
+
+
+
     .colcenter {
         padding-right: 40px;
         padding-left: 40px;
@@ -1355,6 +1517,16 @@ div#top-bar ul li.nav-item.highlightgrey a {
 }
 
 @media only screen and (max-width:1199px) {
+
+
+    .messagesection img.imgthumbnail {
+        height: 330px;
+        width: 100%;
+        object-fit: cover;
+        width: 505px;
+    }
+
+
     ul.navbar-nav.topnav>li>a.nav-link {
         font-weight: 500;
         color: #000;
@@ -1367,7 +1539,7 @@ div#top-bar ul li.nav-item.highlightgrey a {
     }
 
     .navbar-light .navbar-brand img {
-        max-width: 215px
+        max-width:140px;
     }
 
     .principalrow2 h2.title {
@@ -1399,6 +1571,77 @@ div#top-bar ul li.nav-item.highlightgrey a {
 }
 
 @media only screen and (max-width:992px) {
+    .alignitemscenter >div.cold + .cold {
+        padding-top: 17px;
+        font-size: 14px;
+    }
+    .alignitemscenter >div {
+        display: block;
+        padding-right: 0;
+    }
+
+    .cold img {
+        max-width: 90px;
+        /* display: block; */
+        margin: auto;
+    }
+    .cold {
+        text-align: center;
+    }
+
+    .col-md-3.mlauto {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .continner {
+        padding: 15px 15px 30px 15px;
+    }
+
+    .col.colcont1 {
+        order: 0;
+    }
+    
+    .col.colcont2 {
+        order: 1;
+    }
+    
+    .col.colcont4 {
+        order: 3;
+    }
+    
+    .col.colcont3 {
+        order: 2;
+    }
+    
+    
+    
+    .messagesection .row.align-items-center >.col {width: 100%;-webkit-box-flex: 100;-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+
+    .messagesection img.imgthumbnail {
+        height: 330px;
+        width: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .videodesktop {
+        display: none
+    }
+
+
+
+    ul.navbar-nav.topnav>li {
+        margin-left: 0;
+        position: relative;
+        padding: 5px 12px 5px;
+        border-bottom: 1px solid #ddd;
+    }
+
+
+
+
+
 
     .tagg {
         height: 58vh;
@@ -1494,6 +1737,14 @@ div#top-bar ul li.nav-item.highlightgrey a {
 }
 
 @media only screen and (max-width:767px) {
+
+    .navbar-light .navbar-brand img {
+        max-width: 85px;
+    }
+
+
+
+
     .tagg {
         height: 360px;
         width: 100%;
@@ -1576,10 +1827,7 @@ div#top-bar ul li.nav-item.highlightgrey a {
         padding: 10px
     }
 
-    .videodesktop {
-        display: none
-    }
-
+ 
     .welcomerow {
         padding: 50px 0 30px;
         text-align: center
